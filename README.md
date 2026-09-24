@@ -25,21 +25,30 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- Describe the game's purpose.
+   - The game is a random number guessing game, users can pick the difficulty (range of numbers you can guess), then you have a set amount of guesses to get the right one. The game also gives you hints whether your guess is too high or too low. When you get the right one, balloons come out and you win the game.
+- Detail which bugs you found.
+   - Submit button doesn't work right away, you have to submit twice
+   - New game button doesn't fully reset the game, only changes the secret number
+   - Hint messages are the opposite of what it should be
+- Explain what fixes you applied.
+   - Made a fix that updates the initial state of the submissions counter, removed a code block that turns the secret into a string
+   - Initialize some variables (session status, history) so they're back to their starting state (playing, empty list)
+   - Swap out "Go HIGHER" and "Go LOWER"
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters 90 into input box
+2. Message below says "Go HIGHER!"
+3. User enters 100 into input box
+4. Message below says "Go LOWER!"
+5. User enters 97 into input box
+6. Balloons pop up, message below says "You won! The secret was 97. Final score: 100"
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+![alt text](image.png)
 
 ## 🧪 Test Results
 

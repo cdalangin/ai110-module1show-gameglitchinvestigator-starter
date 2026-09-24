@@ -57,12 +57,15 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  - 
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
-- What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+- What is one habit or strategy from this project that you want to reuse in future labs or projects? This could be a testing habit, a prompting strategy, or a way you used Git.
+  - One new strategy is using plan mode where it would explain the changes it'll make first before giving the go signal to implement it. Sometimes I would just accept what the AI suggests without fully understanding the change, but this would help me potentially catch a similar bug in the future and know the specific fixes to make
 - What is one thing you would do differently next time you work with AI on a coding task?
+  - Next time I'll follow the strategy of using new chats for new prompts. Like the instructions suggests, it helps the AI focus on one thing at a time, though it was also beneficial for separating out different tasks, because as I kept askeing new things, it ended up being more difficult to sift through the history when I needed to go back to something.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  - This code made me realize how faulty AI code could be to start, and that you still need to study code yourself to make effective changes. Even if everything looks fine, still try to test and look if everything works, and AI could be a good way to assist in fixing the code, but at the end of the day you still have to approve and skip suggestions based on what you see fits.
